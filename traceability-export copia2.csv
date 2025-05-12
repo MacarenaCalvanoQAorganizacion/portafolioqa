@@ -1,0 +1,18 @@
+"Jira Incidencia","Caracter�stica","Escenario","Modo","Estado","Etiquetas","Etiquetas de características","Pasos"
+" PQA-11 - Regression test plan- sprint 1 ","Cabecera ","Ver Nombre completo en la sección cabecera regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección cabecera 
+Then debe ver el nombre completo ""Macarena Calvano"""
+" PQA-11 - Regression test plan- sprint 1 ","Cabecera ","Ver Título en la sección cabecera regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección cabecera
+Then debe ver el título ""Qa analyst"""
+" PQA-11 - Regression test plan- sprint 1 ","Cabecera ","Visitar enlace a Github regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección cabecera
+And hace click en el enlace de github
+Then debe ver la página de github ""https://github.com/MacarenaCalvanoQAorganizacion/portafolioqa"""
+" PQA-11 - Regression test plan- sprint 1 ","Cabecera ","Visitar enlace a Linkedin regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección header
+And hace click en el enlace a Linkedin
+Then debe ver la página de Linkedin ""www.linkedin.com/in/macarena-calvano-gutierrez"""
+" PQA-11 - Regression test plan- sprint 1 ","Sobre mí ","Ver presentación del candidato regresión","Manual","Passed","regresión","","Given el recruiter está en el perfil del candidato
+When visita la sección sobre mí
+Then debe ver un texto de presentación de la persona"
