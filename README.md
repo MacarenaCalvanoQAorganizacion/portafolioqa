@@ -59,9 +59,9 @@ Release will be consider ready when:
 - Regression tests have been successfully completed after each sprint, with no major issues found.
 
 ## 11. Deliverables
-- **[Functional Test Results](informederesultadosdepruebas.pdf)**: A document summarizing the execution and results of all functional test cases.
-- **[BUG Report](informedeerrores.pdf)**: Detailed documentation of any defects found during testing, including severity, steps to reproduce, and resolution.
-- **[Regression Test Execution Report](informedepruebaderegresin.pdf)**: A report outlining the results of regression tests executed at the end of each sprint.
+- **[Functional Test Results](testresultreports.pdf)**: A document summarizing the execution and results of all functional test cases.
+- **[BUG Report](errorreport.pdf)**: Detailed documentation of any defects found during testing, including severity, steps to reproduce, and resolution.
+- **[Regression Test Execution Report](regressiontestreport.pdf)**: A report outlining the results of regression tests executed at the end of each sprint.
 
 ## AUTHOR
 Macarena Calvano, QA Engineer
