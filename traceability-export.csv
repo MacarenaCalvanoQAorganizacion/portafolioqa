@@ -1,0 +1,43 @@
+"Jira Incidencia","Caracter�stica","Escenario","Modo","Estado","Etiquetas","Etiquetas de características","Pasos"
+" PQA-5 - Contacto ","contacto ","enviar mensaje al candidato ","Manual","Failed","","","Given el recruiter está en el contacto del candidato
+Then envía un mensaje al candidato
+When debe ver el formulario de contacto"
+" PQA-4 - Formación ","Formación ","Ver formación del candidato ","Manual","Passed","","","Given el recruiter está en el perfil del candidato
+Then visita la sección formación
+When debe ver una lista con la formación del candidato , , "
+" PQA-3 - Proyectos ","Proyecto ","Ver los proyectos de github ","Manual","Passed","","","Given el recruiter está en mi portafolio
+When visita la sección de proyectos
+Then debe ver , , 
+
+Examples:
+| Título | función | descripción | 
+| Portafolio web | QA manual | Creado portafolio web y ejecutado pruebas |"
+" PQA-3 - Proyectos ","Proyecto ","visitar los enlaces a proyectos de github ","Manual","Passed","","","Given el recruiter está en el portafolio de proyectos
+When visita la seccion proyectos 
+And visita el enlace a github  
+Then debe ver la pagina de github 
+
+Examples:
+| Proyecto | URL | 
+| Portafolio web | ""https://github.com/MacarenaCalvanoQAorganizacion/portafolioqa"" |
+"
+" PQA-2 - Sobre mí ","Sobre mí ","Ver presentación del candidato regresión","Manual","Passed","regresión","","Given el recruiter está en el perfil del candidato
+When visita la sección sobre mí
+Then debe ver un texto de presentación de la persona"
+" PQA-2 - Sobre mí ","Sobre mí ","Ver lista de habilidades blandas del candidato ","Manual","Passed","","","Given el recruiter está en el perfil del candidato
+When visita la sección sonbre mí
+Then debe ver una lista de habilidades blandas del candidato"
+" PQA-1 - Cabecera ","Cabecera ","Ver Nombre completo en la sección cabecera regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección cabecera 
+Then debe ver el nombre completo ""Macarena Calvano"""
+" PQA-1 - Cabecera ","Cabecera ","Ver Título en la sección cabecera regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección cabecera
+Then debe ver el título ""Qa analyst"""
+" PQA-1 - Cabecera ","Cabecera ","Visitar enlace a Github regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección cabecera
+And hace click en el enlace de github
+Then debe ver la página de github ""https://github.com/MacarenaCalvanoQAorganizacion/portafolioqa"""
+" PQA-1 - Cabecera ","Cabecera ","Visitar enlace a Linkedin regresión","Manual","Passed","regresión","","Given el recruiter está en el portafolio web
+When visita la sección header
+And hace click en el enlace a Linkedin
+Then debe ver la página de Linkedin ""www.linkedin.com/in/macarena-calvano-gutierrez"""
